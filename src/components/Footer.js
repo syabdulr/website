@@ -15,7 +15,7 @@ const Footer = () => {
             className="underline underline-offset-2"
             target={"_blank"}
           >
-            Abdul
+            Abdul Syed
           </Link>
         </span>
       </Layout>

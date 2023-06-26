@@ -10,7 +10,6 @@ import {
   SunIcon,
   MoonIcon,
 } from "./Icons";
-import Logo from "./Logo";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 
@@ -259,18 +258,14 @@ const NavBar = () => {
       `}
             >
               {mode === "light" ? (
-            <SunIcon className={"fill-dark"} />
-          ) : (
-            <MoonIcon className={"fill-dark"} />
-          )}
+                <SunIcon className={"fill-dark"} />
+              ) : (
+                <MoonIcon className={"fill-dark"} />
+              )}
             </button>
           </nav>
         </motion.div>
       ) : null}
-
-      <div className="absolute left-[50%] top-2 translate-x-[-50%]">
-        <Logo />
-      </div>
     </header>
   );
 };
