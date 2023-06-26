@@ -7,7 +7,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link';
 import profilePic from "../../public/images/profile/developer-pic-1.png";
-import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 
 // home page
 export default function Home() {
@@ -72,9 +71,6 @@ export default function Home() {
         </Layout>
 
         <HireMe />
-        <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
-          <Image src={lightBulb} alt="Codebucks" className='w-full h-auto' />
-        </div>
       </main>
     </>
   )
