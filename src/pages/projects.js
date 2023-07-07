@@ -29,7 +29,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     "
       />
       <Link
-        href={link}
+        href={github}
         target="_blank"
         className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
       >
@@ -96,7 +96,7 @@ const Project = ({ title, type, img, link, github }) => {
     "
       />
       <Link
-        href={link}
+        href={github}
         target="_blank"
         className="w-full cursor-pointer overflow-hidden rounded-lg"
       >
@@ -144,7 +144,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Modern Portfolio Built with Nextjs | Projects Page</title>
+        <title>Projects Page</title>
         <meta
           name="description"
           content="Discover the latest webapp projects created by CodeBucks, a Next.js developer with 
@@ -163,11 +163,11 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                title="Coming Soon!"
+                summary="I'm currently working on a new project. Stay tuned for more updates!"
                 img={project1}
-                link="https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css"
-                github="https://github.com/codebucks27/CryptoBucks-Final-Code"
+                link="https://github.com/syabdulr"
+                github="https://github.com/syabdulr"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">

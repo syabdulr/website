@@ -66,7 +66,7 @@ const about = () => {
               </p>
 
               <p className="font-medium">
-                Specialization and Proficiency in React and Next.js with extensive experience in building user interfaces and server rendering.
+                Specialization in React and Next.js with extensive experience in building user interfaces and server rendering.
 
               </p>
             </div>

@@ -1,17 +1,17 @@
 import React, { useRef } from "react";
-import {motion, useScroll } from "framer-motion"
+import { motion, useScroll } from "framer-motion"
 import LiIcon from "./LiIcon";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
-    const ref = useRef(null);
+  const ref = useRef(null);
   return (
     <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]">
-      
-      <LiIcon reference={ref}/>
+
+      <LiIcon reference={ref} />
       <motion.div
-      initial={{y:50}}
-      whileInView={{y:0}}
-      transition={{duration:0.5, type:"spring"}}
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring" }}
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {position}&nbsp;
@@ -33,13 +33,13 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
 };
 
 const Experience = () => {
-    const ref = useRef(null);
-    const {scrollYProgress} = useScroll(
-        {
-            target: ref,
-            offset: ["start end", "center start"]
-        }
-    )
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll(
+    {
+      target: ref,
+      offset: ["start end", "center start"]
+    }
+  )
   return (
     <div className="my-64">
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
@@ -48,65 +48,63 @@ const Experience = () => {
 
       <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
 
-<motion.div
-style={{scaleY: scrollYProgress}}
-  className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top 
+        <motion.div
+          style={{ scaleY: scrollYProgress }}
+          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top 
   md:w-[2px] md:left-[30px] xs:left-[20px] dark:bg-primaryDark dark:shadow-3xl
   "  />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-        <Details
-              position="Software Engineer"
-              company="Google"
-              companyLink="https://google.com"
-              time="2022-Present"
-              address="Mountain View, CA"
-              work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-            />
+          <Details
+            position="Freeland Full Stack Developer"
+            company="UpWork"
+            companyLink="https://upwork.com"
+            time="2023 - Present"
+            address="MILTON, ON."
+            work="Collaborating with team to improve User Experience through customer feedback, data analysis and problem solving, building vulnerability assessment reports, and actively contributing to Scrum meetings for process improvements."
+          />
 
-            <Details
-              position="Intern"
-              company="Facebook"
-              companyLink="https://facebook.com"
-              time="Summer 2021"
-              address="Menlo Park, CA."
-              work="Worked on a team responsible for developing a new mobile app
-              feature that allowed users to create and share short-form video
-              content, including designing and implementing a new user interface
-              and developing the backend infrastructure to support the feature."
-            />
+          <Details
+            position="UX/UI Designer"
+            company="Questrade Technology Group"
+            companyLink="https://questrade.com"
+            time="Summer 2022"
+            address="TORONTO, ON."
+            work="Collaborating with team to improve User Experience through customer feedback, data analysis and problem solving, building vulnerability assessment reports, and actively contributing to Scrum meetings for process improvements."
+          />
 
-            <Details
-              position="Software Developer"
-              company="Amazon"
-              companyLink="https://amazon.com"
-              time="2020-2021"
-              address="Seattle, WA."
-              work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
-            />
+          <Details
+            position="Research Assistant"
+            company="Sheridan College"
+            companyLink="https://www.sheridancollege.ca/en"
+            time="2021-2022"
+            address="Oakville, ON."
+            work="Collaborated with Dr. Abdul Mustafa on developing a Network Security algorithm to detect malicious content in captured packets for an Android Lifecycle Project with SOTI as the Industry Partner; implemented automated malware collection using OpenPhishing and Appium APIs, verified accuracy with Virus Total API, and developed data visualization tools using Angular and Highcharts."
+          />
 
-            <Details
-              position="Software Developer Intern"
-              company="Microsoft"
-              companyLink="https://microsoft.com"
-              time="Summer 2019"
-              address="Redmond, WA."
-              work="Worked on a team responsible for developing new features for
-              Microsoft's Windows operating system, including implementing a new
-              user interface for a system settings panel and optimizing the
-              performance of a core system component."
-            />
-
-            <Details
-              position="Teaching Assistant"
-              company="MIT"
-              companyLink="https://mit.edu"
-              time="Fall 2018"
-              address="Massachusetts Ave, Cambridge, MA."
-              work="Assisted in teaching a course on computer programming, held office
+          <Details
+            position="Peer Mentor"
+            company="Sheridan College"
+            companyLink="https://www.sheridancollege.ca/en"
+            time="2020-2021"
+            address="Oakville, ON."
+            work="Guided students in programming skills and API utilization (OpenPhishing, Appium), supported Game Design Program with AI implementation in Unity Engine, validated ML algorithm accuracy using Virus Total API, developed data visualization tools with Angular and Highcharts."
+          />
+          {/* 
+          <Details
+            position="Research Assistant"
+            company="Sheridan College"
+            companyLink="https://mit.edu"
+            time="Fall 2018"
+            address="Massachusetts Ave, Cambridge, MA."
+            work="Assisted in teaching a course on computer programming, held office
               hours to help students with assignments, and graded exams and
               assignments."
-            />
+          />
+
+
+*/}
+
         </ul>
       </div>
     </div>
