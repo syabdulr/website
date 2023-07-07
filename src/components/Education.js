@@ -43,7 +43,7 @@ const Education = () => {
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-        <Details
+          <Details
             type="Certification in Full Stack Development"
             time="May 2023 - Aug 2023"
             place="Lighthouse Labs, Vancouver, BC"
@@ -59,9 +59,9 @@ const Education = () => {
 
           <Details
             type="Diploma in Business Administration"
-            time="2016-2018"
+            time="Sept 2017 - April 2019"
             place="Humber College, Toronto, ON"
-            info="Incomplete Diploma, completed 2 years of a 3 year program in Business Administration."
+            info="Incomplete Diploma, completed 2 years of a 3 year program in Business Administration and learned about Business Management, Human Resources, Marketing, and Accounting."
           />
         </ul>
       </div>
