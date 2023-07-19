@@ -5,12 +5,12 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-import project2 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
-import project3 from "../../public/images/projects/fashion-studio-website.jpg";
-import project4 from "../../public/images/projects/portfolio-cover-image.jpg";
-import project5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import project6 from "../../public/images/projects/devdreaming.jpg";
+import project1 from "../../public/images/projects/ballup-logo.png";
+import project2 from "../../public/images/projects/Jungle.png";
+import project3 from "../../public/images/projects/PhotoLabs.png";
+import project4 from "../../public/images/projects/QuizBee.png";
+import project5 from "../../public/images/projects/AfterHours.png";
+import project6 from "../../public/images/projects/Tweeter.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -163,59 +163,59 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
-                title="Coming Soon!"
-                summary="I'm currently working on a new project. Stay tuned for more updates!"
+                title="BallUp"
+                summary="An application designed to help basketball players and enthusiasts find courts near them. The app caters to both non-registered and registered users. While non-registered users can find courts near them, registered users enjoy the privilege of adding new courts, viewing their contributions, and adding comments and addresses."
                 img={project1}
-                link="https://github.com/syabdulr"
-                github="https://github.com/syabdulr"
+                link="https://ball-up-deployment.vercel.app/-79.4005188,43.6622882,12"
+                github="https://github.com/lighthouse-buddies/BallUP"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
-                title="NFT collection Website"
+                type="Ruby on Rails Website"
+                title="Implement Features on Existing Codebase"
                 img={project2}
-                link="https://devdreaming.com/videos/create-nft-collection-website-reactjs"
-                github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
+                link="https://github.com/syabdulr/jungle"
+                github="https://github.com/syabdulr/jungle"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website"
-                title="Fashion Studio Website"
+                type="React Website"
+                title="Photo Media Sharing Website"
                 img={project3}
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                link="https://github.com/syabdulr/snapshot"
+                github="https://github.com/syabdulr/snapshot"
               />
             </div>
 
             <div className="col-span-12">
               <FeaturedProject
-                type="Portfolio Website"
-                title="React Portfolio Website"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
+                type="Embedded Javascript Website"
+                title="QuizBee - A Quiz App"
+                summary="The Quiz App is a web application that lets you create and share quizzes with your friends. The creator of the quiz can view and share all the results at the end of the quiz."
                 img={project4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+                link="https://github.com/syabdulr/QuizBee"
+                github="https://github.com/syabdulr/QuizBee"
               />
             </div>
 
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
+                type="Unity Engine Game Lead Developer"
                 img={project5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                title="After Hours - A 2D Horror Game with a twist"
+                link="https://zealf.itch.io/afterhours"
+                github="https://zealf.itch.io/afterhours"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Blog Website"
                 img={project6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
+                title="Tweeter - A Twitter Clone"
+                link="https://github.com/syabdulr/tweeter"
+                github="https://github.com/syabdulr/tweeter"
               />
             </div>
           </div>

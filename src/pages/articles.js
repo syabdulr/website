@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article2 from "../../public/images/articles/create loading screen in react js.jpg";
+import article1 from "../../public/images/articles/Collaboration.jpeg";
+import article2 from "../../public/images/articles/LinkedListDataStructure.jpeg";
 import article3 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 import article4 from "../../public/images/articles/smooth scrolling in reactjs.png";
 import article5 from "../../public/images/articles/create modal component in react using react portals.png";
@@ -119,12 +119,10 @@ const articles = () => {
   return (
     <>
       <Head>
-        <title>Simple Portfolio Built with Nextjs | Articles Page</title>
+        <title>Articles Page</title>
         <meta
           name="description"
-          content="Browse through CodeBucks's collection of software engineering articles and 
-        tutorials on Next.js, React.js, web development, and more. 
-        Gain valuable insights and stay up-to-date with SEO tips for building a developer portfolio."
+          content="Browse through Abdul's collection of articles on web development, React and Next js."
         />
       </Head>
       <TransitionEffect />
@@ -136,24 +134,21 @@ const articles = () => {
           lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl
           "
           />
-          <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
+          <ul className="grid grid-cols-2 gap-16 sm:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
               img={article1}
-              title="build a custom pagination component in reactjs from scratch"
-              time="9 min read"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch. Follow this 
-              step-by-step guide to integrate Pagination component in your ReactJS project."
-              link="https://devdreaming.com/blogs/create-pagination-component-reactjs"
+              title="Unlocking the Power of Pair Programming: Enhancing Learning, Productivity, and Code Quality"
+              time="5 min read"
+              summary="Learn how to utilize pair programming to enhance your learning, productivity, and code quality."
+              link="https://medium.com/@abdulsyed1998/unlocking-the-power-of-pair-programming-enhancing-learning-productivity-and-code-quality-414e3527f29b"
             />
 
             <FeaturedArticle
               img={article2}
-              title="creating stunning loading screens in react: Build 3 types of loading screens"
+              title="The Linked List Data Structure: A Beginner’s Guide"
               time="10 min read"
-              summary="Learn how to create stunning loading screens in React with 3 different methods. 
-              Discover how to use React-Loading, React-Lottie & build a custom loading screen. Improve the 
-              user experience."
-              link="https://devdreaming.com/blogs/create-3-different-types-of-loading-screens-in-react"
+              summary="Linked Lists are a fundamental data structure in computer science, serving as building blocks for many more complex structures and algorithms. Whether you’re an active developer or a future one, understanding linked lists is a stepping stone to grasping broader computer science concepts."
+              link="https://medium.com/@abdulsyed1998/the-linked-list-data-structure-7adc394c9b19"
             />
           </ul>
           <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
