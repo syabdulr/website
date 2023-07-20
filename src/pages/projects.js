@@ -16,7 +16,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
-const FeaturedProject = ({ type, title, summary, img, link, github }) => {
+const FeaturedProject = ({ type, title, summary, summary2, summary3, img, link, github }) => {
   return (
     <article
       className="w-full flex items-center justify-between relative  rounded-br-2xl
@@ -60,7 +60,13 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           </h2>
         </Link>
         <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
-          {summary}
+          {summary}     
+        </p>
+        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
+          {summary2}     
+        </p>
+        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
+          {summary3}     
         </p>
         <div className="mt-2 flex items-center">
           <Link href={github} target="_blank" className="w-10">
@@ -147,8 +153,8 @@ const projects = () => {
         <title>Projects Page</title>
         <meta
           name="description"
-          content="Discover the latest webapp projects created by CodeBucks, a Next.js developer with 
-        expertise in React.js and full-stack development. Browse software engineering articles and tutorials for tips on creating your own portfolio."
+          content="Discover the latest webapp projects created by Abdul Syed, a Next.js developer with 
+        expertise in React.js and full-stack development."
         />
       </Head>
       <TransitionEffect />
@@ -162,9 +168,13 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Featured Project"
+                type="Social Media Application"
                 title="BallUp"
-                summary="An application designed to help basketball players and enthusiasts find courts near them. The app caters to both non-registered and registered users. While non-registered users can find courts near them, registered users enjoy the privilege of adding new courts, viewing their contributions, and adding comments and addresses."
+                summary="An application designed to help basketball players and enthusiasts find courts near them. 
+                The app caters to both non-registered and registered users. 
+                While non-registered users can find courts near them, registered users enjoy the privilege of adding new courts, viewing their contributions, and adding comments and addresses."
+                summary2="Developed using ReactJS, NextJS, PostgreSQL and TailwindCSS"
+                summary3="Deployed on Vercel"
                 img={project1}
                 link="https://ball-up-deployment.vercel.app/-79.4005188,43.6622882,12"
                 github="https://github.com/lighthouse-buddies/BallUP"
@@ -194,6 +204,7 @@ const projects = () => {
                 type="Embedded Javascript Website"
                 title="QuizBee - A Quiz App"
                 summary="The Quiz App is a web application that lets you create and share quizzes with your friends. The creator of the quiz can view and share all the results at the end of the quiz."
+                summary2="Developed using PostgreSQL, Express, JQuery, and Ajax."
                 img={project4}
                 link="https://github.com/syabdulr/QuizBee"
                 github="https://github.com/syabdulr/QuizBee"
