@@ -58,15 +58,15 @@ const about = () => {
               </p>
 
               <p className="my-4 font-medium">
-                Multifaceted Individual who excels in tech and passionate about Game Development, Sports and Fitness, and Automobiles.
+                Multifaceted Individual who excels in tech and passionate about Game Development, Sports and Fitness, Automobiles, and excels in web development.
               </p>
 
               <p className="my-4 font-medium">
-                Intricate Problem Solver driven to tackle complex challenges with creative solutions in fast-paced high-stakes environments.
+                Intricate Problem Solver that is driven to tackle complex challanges with creative solutions in a fast paced high-stakes environment.
               </p>
 
               <p className="font-medium">
-                Specialization in React and Next.js with extensive experience in building user interfaces and server rendering.
+                Specialization in React and Next with extensive experience in building a user interface with server rendering.
 
               </p>
             </div>
