@@ -61,7 +61,7 @@ const Experience = () => {
             companyLink="https://upwork.com"
             time="2023 - Present"
             address="MILTON, ON."
-            work="Collaborating with team to improve User Experience through customer feedback, data analysis and problem solving, building vulnerability assessment reports, and actively contributing to Scrum meetings for process improvements."
+            work="Continuously refining my skills as a Full Stack Developer, I actively seek out new technologies and industry best practices to stay at the forefront of web development trends. This enables me to bring innovative and creative solutions to challenging tasks, finding efficient and elegant ways to solve complex puzzles."
           />
 
           <Details
@@ -70,7 +70,7 @@ const Experience = () => {
             companyLink="https://questrade.com"
             time="Summer 2022"
             address="TORONTO, ON."
-            work="Collaborating with team to improve User Experience through customer feedback, data analysis and problem solving, building vulnerability assessment reports, and actively contributing to Scrum meetings for process improvements."
+            work="Collaborating with stakeholders to improve User Experience through customer feedback, data analysis, problem solving, building vulnerability assessment reports, and actively contributing to Scrum meetings for process improvements."
           />
 
           <Details
@@ -79,7 +79,7 @@ const Experience = () => {
             companyLink="https://www.sheridancollege.ca/en"
             time="2021-2022"
             address="Oakville, ON."
-            work="Collaborated with Dr. Abdul Mustafa on developing a Network Security algorithm to detect malicious content in captured packets for an Android Lifecycle Project with SOTI as the Industry Partner; implemented automated malware collection using OpenPhishing and Appium APIs, verified accuracy with Virus Total API, and developed data visualization tools using Angular and Highcharts."
+            work="Collaborated with Dr. Abdul Mustafa in developing a Network Security algorithm to detect malicious content. Captured packets for an Android Lifecycle Project with SOTI as the Industry Partner. Implemented automated malware collection using OpenPhishing and Appium APIs. Verified accuracy with Virus Total API, and developed data visualization tools using Angular and Highcharts."
           />
 
           <Details
@@ -88,7 +88,7 @@ const Experience = () => {
             companyLink="https://www.sheridancollege.ca/en"
             time="2020-2021"
             address="Oakville, ON."
-            work="Guided students in programming skills and API utilization (OpenPhishing, Appium), supported Game Design Program with AI implementation in Unity Engine, validated ML algorithm accuracy using Virus Total API, developed data visualization tools with Angular and Highcharts."
+            work="Trained students in programming skills and API utilization (OpenPhishing, Appium). Enhance the Game Design Curriculum with AI implementation in Unity Engine. Validated ML algorithm accuracy using Virus Total API and developed data visualization tools with Angular and Highcharts."
           />
           {/* 
           <Details
