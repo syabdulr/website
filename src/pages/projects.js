@@ -8,7 +8,7 @@ import React from "react";
 import project1 from "../../public/images/projects/ballup-logo.png";
 import project2 from "../../public/images/projects/Jungle.png";
 import project3 from "../../public/images/projects/PhotoLabs.png";
-import project4 from "../../public/images/projects/QuizBee.png";
+import project4 from "../../public/images/projects/Quiz-Bee.png";
 import project5 from "../../public/images/projects/AfterHours.png";
 import project6 from "../../public/images/projects/Tweeter.png";
 import { motion } from "framer-motion";
