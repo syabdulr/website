@@ -7,12 +7,12 @@ import React, { useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
 import article1 from "../../public/images/articles/Collaboration.jpeg";
 import article2 from "../../public/images/articles/LinkedListDataStructure.jpeg";
-import article3 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
-import article4 from "../../public/images/articles/smooth scrolling in reactjs.png";
-import article5 from "../../public/images/articles/create modal component in react using react portals.png";
-import article6 from "../../public/images/articles/todo list app built using react redux and framer motion.png";
-import article7 from "../../public/images/articles/What is Redux with easy explanation.png";
-import article8 from "../../public/images/articles/What is higher order component in React.jpg";
+import article3 from "../../public/images/articles/Cloud5.png";
+import article4 from "../../public/images/articles/AnorLondo.png";
+import article5 from "../../public/images/articles/AfterHoursSMB.png";
+import article6 from "../../public/images/articles/FiniteStateMachine.jpeg";
+import article7 from "../../public/images/articles/DataStructures.jpeg";
+import article8 from "../../public/images/articles/StackDataStructure.jpeg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -156,41 +156,41 @@ const articles = () => {
           </h2>
           <ul className="flex flex-col items-center relative">
             <Article
-              title="form validation in reactjs: build a reusable custom hook for inputs and error handling"
-              img={article3}
-              date="January 27, 2023"
-              link="https://devdreaming.com/blogs/react-form-validation-custom-hook"
+              title="Stack Data Structure: Implementation and Applications with a Focus on Call Stack"
+              date="April 4, 2023"
+              img={article8}
+              link="https://medium.com/@abdulsyed1998/stack-data-structure-implementation-and-applications-with-a-focus-on-call-stack-78d1975ff1df"
             />
             <Article
-              title="silky smooth scrolling in reactjs: a step-by-step guide for react developers"
-              img={article4}
-              date="January 30, 2023"
-              link="https://devdreaming.com/blogs/smooth-scrolling-in-react-js"
+              title="Application and Analysis of Tree Data Structures: A Deeper Look into Binary Search Trees"
+              img={article7}
+              date="March 31, 2023"
+              link="https://medium.com/@abdulsyed1998/application-and-analysis-of-tree-data-structures-a-deeper-look-into-binary-search-trees-1376d7f3f99c"
             />
             <Article
-              title="creating an efficient modal component in react using hooks and portals"
+              title="Analyzing Design Choices in my Personal Game After Hours vs Super Mario Bros"
               img={article5}
               date="January 29, 2023"
-              link="https://devdreaming.com/blogs/create-efficient-modal-react-portals"
+              link="https://medium.com/@abdulsyed1998/retrospective-design-patterns-39f43fd778f0"
             />
             <Article
-              title="build a fabulous todo list app with react, redux and framer-motion"
+              title="Level Design Analysis - Dark Souls"
+              img={article4}
+              date="January 23, 2023"
+              link="https://docs.google.com/document/d/1Mpg99YIafp4TawF6hsM3ogMrKxrVlx3TYXskjNCWJsQ/edit?usp=sharing"
+            />
+            <Article
+              title="Finite State Machine - AI Programming in Unity"
               img={article6}
-              date="January 28, 2023"
-              link="https://devdreaming.com/blogs/build-react-redux-framer-motion-todo-app"
+              date="January 17, 2023"
+              link="https://medium.com/@abdulsyed1998/ai-programming-creating-a-vibrant-ecosystem-with-tony-bunny-and-peach-618544f5fc"
             />
-            <Article
-              title="redux simplified: a beginner's guide for web developers"
-              img={article7}
-              date="January 31, 2023"
-              link="https://devdreaming.com/blogs/redux-simply-explained"
-            />
-            <Article
-              title="what is higher order component (hoc) in react?"
-              date="January 4, 2023"
-              img={article8}
-              link="https://devdreaming.com/blogs/higher-order-component-hoc-react"
-            />
+              <Article
+                title="Game Level Design Document for Original Game"
+                img={article3}
+                date="May 22, 2021"
+                link="https://docs.google.com/document/d/1maZWAH4YNOTRdDCP84XFGf2EmEJ5o2--X5fwaZwTHM0/edit?usp=sharing"
+              />
           </ul>
         </Layout>
       </main>
