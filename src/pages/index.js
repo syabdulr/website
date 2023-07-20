@@ -43,7 +43,7 @@ export default function Home() {
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link
-                  href="/resume.pdf"
+                  href="https://www.overleaf.com/project/63dd4396bd1c495781a0f8cf/detached"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6
                   rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
@@ -52,7 +52,6 @@ export default function Home() {
                   dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
                   hover:dark:border-light md:p-2 md:px-4 md:text-base
                   "
-                  download={true}
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
