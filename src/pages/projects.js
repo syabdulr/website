@@ -201,7 +201,7 @@ const projects = () => {
 
             <div className="col-span-12">
               <FeaturedProject
-                type="Embedded Javascript Website"
+                type="Express Javascript Website"
                 title="QuizBee - A Quiz App"
                 summary="The Quiz App is a web application that lets you create and share quizzes with your friends. The creator of the quiz can view and share all the results at the end of the quiz."
                 summary2="Developed using PostgreSQL, Express, JQuery, and Ajax."
