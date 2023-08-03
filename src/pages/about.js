@@ -79,7 +79,7 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
-                alt="Codebucks"
+                alt={profilePic}
                 className="w-full h-auto rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw,

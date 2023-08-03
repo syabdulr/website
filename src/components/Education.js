@@ -44,10 +44,10 @@ const Education = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Certification in Full Stack Development"
+            type="Diploma of Full Stack Development"
             time="May 2023 - Aug 2023"
             place="Lighthouse Labs, Vancouver, BC"
-            info="Completed a 12-week intensive bootcamp, learning full stack development with a focus on PostgreSQL, React and Next,js."
+            info="Completed a 12-week intensive bootcamp, learning full stack development with a focus on PostgreSQL, React and other libraries and frameworks."
           />
 
           <Details
