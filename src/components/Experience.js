@@ -60,7 +60,7 @@ const Experience = () => {
             company="Alt Ctrl Studios"
             companyLink="https://cabbbagee.itch.io/miniature-nightmares"
             time="Fall 2023 - Present"
-            address="MILTON, ON."
+            address="Oakville, ON."
             work="Worked on a student project showcased at GDC 2024 in San Francisco. Lead the team to build this game from the ground up and designed workflows and wireframes to illustrate the user experience."
           />
 
