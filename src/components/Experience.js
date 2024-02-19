@@ -56,40 +56,32 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Freelance Full Stack Developer"
-            company="UpWork"
-            companyLink="https://upwork.com"
-            time="2023 - Present"
+            position="Project Manager and UX/UI Designer"
+            company="Alt Ctrl Studios"
+            companyLink="https://cabbbagee.itch.io/miniature-nightmares"
+            time="Fall 2023 - Present"
             address="MILTON, ON."
-            work="Continuously refining my skills as a Full Stack Developer, I actively seek out new technologies and industry best practices to stay at the forefront of web development trends. This enables me to bring innovative and creative solutions to challenging tasks, finding efficient and elegant ways to solve complex puzzles."
+            work="Worked on a student project showcased at GDC 2024 in San Francisco. Lead the team to build this game from the ground up and designed workflows and wireframes to illustrate the user experience."
           />
 
           <Details
-            position="UX/UI Designer"
-            company="Questrade Technology Group"
-            companyLink="https://questrade.com"
-            time="Summer 2022"
+            position="Junior UX/UI Designer"
+            company="Lighthouse Labs"
+            companyLink="https://www.lighthouselabs.ca/"
+            time="Summer 2023"
             address="TORONTO, ON."
-            work="Collaborating with stakeholders to improve User Experience through customer feedback, data analysis, problem solving, building vulnerability assessment reports, and actively contributing to Scrum meetings for process improvements."
+            work="Developed wireframes and prototypes that successfully communicated design ideas to stakeholders. Led the redesign of a user interface enhancing user experience. Conducted extensive user research, facilitating datadriven design decisions."
           />
 
           <Details
-            position="Research Assistant"
-            company="Sheridan College"
-            companyLink="https://www.sheridancollege.ca/en"
-            time="2021-2022"
-            address="Oakville, ON."
-            work="Collaborated with Dr. Abdul Mustafa in developing a Network Security algorithm to detect malicious content. Captured packets for an Android Lifecycle Project with SOTI as the Industry Partner. Implemented automated malware collection using OpenPhishing and Appium APIs. Verified accuracy with Virus Total API, and developed data visualization tools using Angular and Highcharts."
+            position="UX/UI Design Intern"
+            company="QuestTechnology Group"
+            companyLink="https://www.questrade.com/"
+            time="Summer 2022"
+            address="Toronto, ON."
+            work="Brainstormed and designed compelling user interfaces to improve user experience. Assisted senior UX designers with research tasks and the preparation of user testing sessions. Contributed in enhancing user activity by 17% for the mobile app"
           />
 
-          <Details
-            position="Peer Mentor"
-            company="Sheridan College"
-            companyLink="https://www.sheridancollege.ca/en"
-            time="2020-2021"
-            address="Oakville, ON."
-            work="Trained students in programming skills and API utilization (OpenPhishing, Appium). Enhance the Game Design Curriculum with AI implementation in Unity Engine. Validated ML algorithm accuracy using Virus Total API and developed data visualization tools with Angular and Highcharts."
-          />
           {/* 
           <Details
             position="Research Assistant"

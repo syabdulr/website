@@ -35,25 +35,25 @@ const Skills = () => {
               "
           whileHover={{ scale: 1.05 }}
         >
-          Full Stack
+          UX/UI
         </motion.div>
 
-        <Skill name="ReactJS" x="-25vw" y="18vw" />
-        <Skill name="NextJS" x="18vw" y="-22vw" />
-        <Skill name="PostgreSQL" x="-20vw" y="2vw" />
-        <Skill name="MongoDB" x="-20vw" y="-15vw" />
-        <Skill name="NodeJS" x="-35vw" y="-5vw" />
-        <Skill name="GitHub" x="32vw" y="-5vw" />
-        <Skill name="Ruby on Rails" x="0vw" y="-20vw" />
-        <Skill name="ExpressJS" x="0vw" y="22vw" />
-        <Skill name="Cypress" x="32vw" y="-12vw" />
-        <Skill name="Mocha" x="0vw" y="12vw" />
-        <Skill name="Chai" x="-15vw" y="-22vw" />
-        <Skill name="Python" x="15vw" y="-12vw" />
-        <Skill name="Java" x="28vw" y="18vw" />
-        <Skill name="Javascript" x="-5vw" y="-10vw" />
-        <Skill name="Unity" x="20vw" y="6vw" />
-        <Skill name="Unreal Engine" x="-35vw" y="12vw" />
+        <Skill name="Wireframing" x="-25vw" y="18vw" />
+        <Skill name="Prototyping" x="18vw" y="-22vw" />
+        <Skill name="Design Pattern" x="-20vw" y="2vw" />
+        <Skill name="Typography" x="-20vw" y="-15vw" />
+        <Skill name="Personas" x="-35vw" y="-5vw" />
+        <Skill name="User Flows" x="32vw" y="-5vw" />
+        <Skill name="Heuristic Evaluation" x="0vw" y="-20vw" />
+        <Skill name="Data Analysis" x="0vw" y="22vw" />
+        <Skill name="Journey Mapping" x="32vw" y="-12vw" />
+        <Skill name="User Testing" x="0vw" y="12vw" />
+        <Skill name="Unreal Engine" x="-15vw" y="-22vw" />
+        <Skill name="Unity Engine" x="15vw" y="-12vw" />
+        <Skill name="Atomic Design" x="28vw" y="18vw" />
+        <Skill name="Dev Ops" x="-5vw" y="-10vw" />
+        <Skill name="Sketch" x="20vw" y="6vw" />
+        <Skill name="Suite" x="-35vw" y="12vw" />
 
       </div>
     </>
