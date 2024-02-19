@@ -48,7 +48,7 @@ const Education = () => {
             type="Bachelor of Game Design"
             time="Sept 2020 - April 2024"
             place="Sheridan College, Oakville, ON"
-            info="Completed a master's project on deep learning, developing a new neural network architecture for natural language understanding."
+            info="Graduated with a certificate in Creative Problem Solving, learned about design principles and methodologies for Games."
           />
 
           <Details
