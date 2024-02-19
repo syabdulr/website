@@ -54,11 +54,11 @@ const about = () => {
                 Biography - Abdul
               </h2>
               <p className="font-medium">
-                Innovative Full Stack Developer with proficiency in creating robust applications for exceptional user experiences.
+                As a UX/UI Designer, I strive to design experiences that simplify the lives of others without compromise.
               </p>
 
               <p className="my-4 font-medium">
-                Multifaceted Individual who excels in tech and passionate about Game Development, Sports and Fitness, Automobiles, and excels in web development.
+                Energetic Team Player with a purpose of fostering productive and effective work environments.
               </p>
 
               <p className="my-4 font-medium">
@@ -66,7 +66,7 @@ const about = () => {
               </p>
 
               <p className="font-medium">
-                Specialization in React and Next with extensive experience in building a user interface with server rendering.
+                Specialization in plugin workflows and prototyping to create quick designs when working on games.
 
               </p>
             </div>
