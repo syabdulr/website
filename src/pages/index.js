@@ -78,20 +78,20 @@ const Home = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Unity Game"
-                title="After Hours - Role: UX Designer"
-                img={project5}
-                link="https://drive.google.com/file/d/12JLaN54dRvWo3p2iclywi0DuF8U1VfHk/view?usp=sharing"
-                github="https://zealf.itch.io/afterhours"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
                 type="Social Networking Game"
                 title="BallUp - Role: Lead UX Designer"
                 img={project7}
                 link="https://ball-up-deployment.vercel.app/-79.4005188,43.6622882,12"
                 github="https://github.com/lighthouse-buddies/BallUP"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Unity Game"
+                title="After Hours - Role: UX Designer"
+                img={project5}
+                link="https://drive.google.com/file/d/12JLaN54dRvWo3p2iclywi0DuF8U1VfHk/view?usp=sharing"
+                github="https://zealf.itch.io/afterhours"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
