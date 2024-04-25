@@ -7,7 +7,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import { motion } from "framer-motion";
 import { LinkArrow, GithubIcon } from "@/components/Icons";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
-import project1 from "../../public/images/projects/ballup-logo.png";
+import project1 from "../../public/images/projects/gameLogo.png";
 import project2 from "../../public/images/projects/Jungle.png";
 import project3 from "../../public/images/projects/PhotoLabs.png";
 import project4 from "../../public/images/projects/Quiz-Bee.png";
@@ -70,8 +70,8 @@ const Home = () => {
                 summary2="Project Manager and Lead UX/UI Designer"
                 summary3="GDC 2024 Finalist, Level Up 2nd Place Innovative Technology"
                 img={project1}
-                link="https://cabbbagee.itch.io/miniature-nightmares"
-                Itch="https://cabbbagee.itch.io/miniature-nightmares"
+                link="https://ball-up-deployment.vercel.app/-79.4005188,43.6622882,12"
+                github="https://github.com/lighthouse-buddies/BallUP"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
