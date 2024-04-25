@@ -94,17 +94,6 @@ const Home = () => {
                 github="https://github.com/lighthouse-buddies/BallUP"
               />
             </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                type="Express Javascript Website"
-                title="QuizBee - A Quiz App"
-                summary="The Quiz App is a web application that lets you create and share quizzes with your friends. The creator of the quiz can view and share all the results at the end of the quiz."
-                summary2="Developed using PostgreSQL, Express, JQuery, and Ajax."
-                img={project4}
-                link="https://github.com/syabdulr/QuizBee"
-                github="https://github.com/syabdulr/QuizBee"
-              />
-            </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Educational Game"
