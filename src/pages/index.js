@@ -144,7 +144,7 @@ const FeaturedProject = ({ type, title, summary, summary2, summary3, img, link, 
         <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary2}</p>
         <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary3}</p>
         <div className="mt-2 flex items-center">
-          <Link href="mini_night_infograph.png" target="_blank" className="ml-0 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">Visit Project</Link>
+          <Link href={github} target="_blank" className="ml-0 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">Visit Project</Link>
         </div>
       </div>
     </article>
