@@ -7,7 +7,6 @@ import TransitionEffect from "@/components/TransitionEffect";
 import { motion } from "framer-motion";
 import { LinkArrow, GithubIcon } from "@/components/Icons";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
-import itchBadge from "../../public/images/projects/badge.png"
 import project1 from "../../public/images/projects/gameLogo.png";
 import project2 from "../../public/images/projects/Jungle.png";
 import project3 from "../../public/images/projects/PhotoLabs.png";
