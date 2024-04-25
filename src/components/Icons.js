@@ -17,6 +17,15 @@ export const GithubIcon = ({ className, ...rest }) => (
   </svg>
 );
 
+export const ItchIcon = ({ className, ...rest }) => (
+  <img
+    src="https://static.itch.io/images/badge.svg"
+    alt="Itch.io"
+    className={`w-auto h-8 ${className}`}
+    {...rest}
+  />
+);
+
 export const TwitterIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
