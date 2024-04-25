@@ -13,6 +13,7 @@ import project3 from "../../public/images/projects/PhotoLabs.png";
 import project4 from "../../public/images/projects/Quiz-Bee.png";
 import project5 from "../../public/images/projects/AfterHours.png";
 import project6 from "../../public/images/projects/Tweeter.png";
+import project7 from "../../public/images/projects/ballup-logo.png"
 import AnimatedText from "@/components/AnimatedText";
 
 const FramerImage = motion(Image);
@@ -76,20 +77,20 @@ const Home = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Ruby on Rails Website"
-                title="Implement Features on Existing Codebase"
-                img={project2}
-                link="https://github.com/syabdulr/jungle"
-                github="https://github.com/syabdulr/jungle"
+                type="Unity Game"
+                title="After Hours - 4 Day Game Jam Sprint"
+                img={project5}
+                link="https://drive.google.com/file/d/12JLaN54dRvWo3p2iclywi0DuF8U1VfHk/view?usp=sharing"
+                github="https://zealf.itch.io/afterhours"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="React Website"
-                title="Photo Media Sharing Website"
-                img={project3}
-                link="https://github.com/syabdulr/snapshot"
-                github="https://github.com/syabdulr/snapshot"
+                type="Social Networking Game"
+                title="BallUp"
+                img={project7}
+                link="https://ball-up-deployment.vercel.app/-79.4005188,43.6622882,12"
+                github="https://github.com/lighthouse-buddies/BallUP"
               />
             </div>
             <div className="col-span-12">
