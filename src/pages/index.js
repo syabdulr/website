@@ -64,11 +64,11 @@ const Home = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                type="Social Media Application"
-                title="BallUp"
-                summary="An application designed to help basketball players and enthusiasts find courts near them. The app caters to both non-registered and registered users. While non-registered users can find courts near them, registered users enjoy the privilege of adding new courts, viewing their contributions, and adding comments and addresses."
-                summary2="Developed using ReactJS, NextJS, PostgreSQL and TailwindCSS"
-                summary3="Deployed on Vercel"
+                type="Alt Ctrl Game"
+                title="Miniature Nightmares"
+                summary="Miniature Nightmares is a 1v1 player versus player (PvP) game set in a physical house diorama, where Arduino is utilized as the controller. The digital game, constructed with the Unity Engine, features one player assuming the role of the monster, while the other player takes on the role of the human."
+                summary2="Project Manager and Lead UX/UI Designer"
+                summary3="GDC 2024 Finalist, Level Up 2nd Place Innovative Technology"
                 img={project1}
                 link="https://ball-up-deployment.vercel.app/-79.4005188,43.6622882,12"
                 github="https://github.com/lighthouse-buddies/BallUP"
