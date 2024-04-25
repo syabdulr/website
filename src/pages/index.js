@@ -36,7 +36,7 @@ const Home = () => {
                     className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl"
                   />
                   <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                  I’m a multidisciplinary designer who blends skills from <strong>UI/UX</strong>, <strong>technical prototyping</strong>, <strong>game design</strong>, and <strong>programming</strong>. It’s my mission to create delightful & memorable user experiences.
+                  I’m a multidisciplinary designer who blends skills from <strong>UX/UI</strong>, <strong>technical prototyping</strong>, <strong>game design</strong>, and <strong>programming</strong>. It’s my mission to create delightful & memorable user experiences.
                   </p>
                   <div className="flex items-center self-start mt-2 lg:self-center">
                     <Link
@@ -144,7 +144,7 @@ const FeaturedProject = ({ type, title, summary, summary2, summary3, img, link, 
         <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary2}</p>
         <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary3}</p>
         <div className="mt-2 flex items-center">
-          <Link href={github} target="_blank" className="ml-0 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">Visit Project</Link>
+          <Link href="mini_night_infograph.png" target="_blank" className="ml-0 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">Visit Project</Link>
         </div>
       </div>
     </article>
