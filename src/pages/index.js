@@ -1,3 +1,5 @@
+// index.js
+
 import AnimatedText from '@/components/AnimatedText';
 import HireMe from '@/components/HireMe';
 import { LinkArrow } from '@/components/Icons';
@@ -7,8 +9,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link';
 import profilePic from "../../public/images/profile/developer-pic-1.png";
+import project1 from "../../public/images/projects/ballup-logo.png";
+// Import other project images here
 
-// home page
 export default function Home() {
   return (
     <>
@@ -66,6 +69,24 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          {/* Add your projects section here */}
+          <section className="mt-16">
+            <h2 className="text-4xl font-bold text-dark mb-8 dark:text-light">
+              My Projects
+            </h2>
+            {/* Include your projects here */}
+            {/* Example: */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Project components */}
+              {/* Example: */}
+              <div>
+                <Image src={project1} alt="Project 1" />
+                {/* Project details */}
+              </div>
+              {/* Repeat for other projects */}
+            </div>
+          </section>
         </Layout>
 
         <HireMe />
