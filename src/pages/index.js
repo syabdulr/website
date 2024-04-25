@@ -81,8 +81,8 @@ const Home = () => {
                 type="BallUp: Social Networking Game"
                 title="UX Designer"
                 img={project7}
-                link="https://drive.google.com/drive/folders/1Wp8ie31hZoCC_3R9a3eifQX1ur74T7X8"
-                github="https://ball-up-deployment.vercel.app/-79.4005188,43.6622882,12"
+                link="https://drive.google.com/file/d/1yIrKfznbKIhsSie-GQtjHSLF2CAl-iX7/view?usp=sharing"
+                github="https://drive.google.com/file/d/1yIrKfznbKIhsSie-GQtjHSLF2CAl-iX7/view?usp=sharing"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -91,7 +91,7 @@ const Home = () => {
                 title="UX Designer"
                 img={project5}
                 link="https://drive.google.com/file/d/12JLaN54dRvWo3p2iclywi0DuF8U1VfHk/view?usp=sharing"
-                github="https://zealf.itch.io/afterhours"
+                github="https://drive.google.com/file/d/12JLaN54dRvWo3p2iclywi0DuF8U1VfHk/view?usp=sharing"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -99,8 +99,8 @@ const Home = () => {
                 type="QuizBee - Educational Game"
                 img={project4}
                 title="UX Designer"
-                link="https://drive.google.com/drive/folders/1Wp8ie31hZoCC_3R9a3eifQX1ur74T7X8"
-                github="https://github.com/syabdulr/QuizBee"
+                link="https://drive.google.com/file/d/1Ey_c5OEIsy5C1gHaU0xE2Jidrhk32c00/view?usp=sharing"
+                github="https://drive.google.com/file/d/1Ey_c5OEIsy5C1gHaU0xE2Jidrhk32c00/view?usp=sharing"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
