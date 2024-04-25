@@ -2,7 +2,7 @@ import * as React from "react";
 
 export const GithubIcon = ({ className, ...rest }) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
+    xmlns="https://static.itch.io/images/badge.svg"
     width="1em"
     height="1em"
     viewBox="0 0 512 512"
