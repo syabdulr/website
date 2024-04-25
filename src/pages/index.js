@@ -14,7 +14,6 @@ import project4 from "../../public/images/projects/Quiz-Bee.png";
 import project5 from "../../public/images/projects/AfterHours.png";
 import project6 from "../../public/images/projects/Tweeter.png";
 import AnimatedText from "@/components/AnimatedText";
-import HireMe from "@/components/HireMe";
 
 const FramerImage = motion(Image);
 
@@ -77,7 +76,6 @@ const Home = () => {
           </div>
         </Layout>
 
-        <HireMe />
       </main>
 
       <TransitionEffect />
