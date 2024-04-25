@@ -25,7 +25,7 @@ const Home = () => {
         <meta name="description" content="" />
       </Head>
       <TransitionEffect />
-      <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
+      <main className="w-full mb-16 -mt-8 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
