@@ -87,7 +87,7 @@ const Home = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="After Hours - Unity 2d Platformer Game"
+                type="After Hours: Unity 2d Platformer Game"
                 title="UX Designer"
                 img={project5}
                 link="https://drive.google.com/file/d/12JLaN54dRvWo3p2iclywi0DuF8U1VfHk/view?usp=sharing"
@@ -96,7 +96,7 @@ const Home = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="QuizBee - Educational Game"
+                type="QuizBee: Educational Game"
                 img={project4}
                 title="UX Designer"
                 link="https://drive.google.com/file/d/1Ey_c5OEIsy5C1gHaU0xE2Jidrhk32c00/view?usp=sharing"
