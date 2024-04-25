@@ -70,8 +70,8 @@ const Home = () => {
                 summary2="Project Manager and Lead UX/UI Designer"
                 summary3="GDC 2024 Finalist, Level Up 2nd Place Innovative Technology"
                 img={project1}
-                link="https://ball-up-deployment.vercel.app/-79.4005188,43.6622882,12"
-                github="https://github.com/lighthouse-buddies/BallUP"
+                link="https://cabbbagee.itch.io/miniature-nightmares"
+                github="https://cabbbagee.itch.io/miniature-nightmares"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
