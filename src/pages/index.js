@@ -30,15 +30,6 @@ const Home = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <div className="flex items-center justify-between w-full lg:flex-col">
-                <div className="w-2/5 md:w-full">
-                  <Image
-                    src={profilePic}
-                    alt="CodeBucks"
-                    className="w-4/5 h-auto lg:hidden md:inline-block md:w-full"
-                    priority
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-                  />
-                </div>
                 <div className="w-3/5 flex flex-col items-center self-center lg:w-full lg:text-center">
                   <AnimatedText
                     text="Hey, I'm Abdul!"
