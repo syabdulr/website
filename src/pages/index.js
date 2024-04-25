@@ -72,8 +72,8 @@ const Home = () => {
                 summary2="Project Manager and Lead UX/UI Designer"
                 summary3="GDC 2024 Finalist, Level Up 2024 2nd Place Innovative Technology"
                 img={project1}
-                link="https://cabbbagee.itch.io/miniature-nightmares"
-                github="https://cabbbagee.itch.io/miniature-nightmares"
+                link="https://drive.google.com/file/d/1_p5bsjTKkCSkLx1TQ1BP_DAzQS5EhKuj/view?usp=sharing"
+                github="https://drive.google.com/file/d/1_p5bsjTKkCSkLx1TQ1BP_DAzQS5EhKuj/view?usp=sharing"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
