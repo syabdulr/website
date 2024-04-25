@@ -83,7 +83,7 @@ const Home = () => {
                 github="https://github.com/syabdulr/jungle"
               />
             </div>
-            <div className="col-span-12">
+            <div className="col-span-6 sm:col-span-12">
               <Project
                 type="React Website"
                 title="Photo Media Sharing Website"
