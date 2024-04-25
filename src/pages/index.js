@@ -76,13 +76,13 @@ const Home = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                type="Express Javascript Website"
-                title="QuizBee - A Quiz App"
-                summary="The Quiz App is a web application that lets you create and share quizzes with your friends. The creator of the quiz can view and share all the results at the end of the quiz."
-                summary2="Developed using PostgreSQL, Express, JQuery, and Ajax."
-                img={project4}
-                link="https://github.com/syabdulr/QuizBee"
-                github="https://github.com/syabdulr/QuizBee"
+                type="Unity Game"
+                title="After Hours"
+                summary="After Hours is a  2D Side Scroller Horror Game that places you as a teddy bear trying to escape a haunted elementary school where the Janitor is hunting for you. Developed in 4 days I lead the technical prototypes and User Experience Design given the Design Challenge."
+                summary2="UX Designer and Level Designer"
+                img={project5}
+                link="https://zealf.itch.io/afterhours"
+                github="https://zealf.itch.io/afterhours"
               />
             </div>
             <div className="col-span-12">
