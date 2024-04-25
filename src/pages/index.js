@@ -72,7 +72,7 @@ const Home = () => {
                 summary3="GDC 2024 Finalist, Level Up 2nd Place Innovative Technology"
                 img={project1}
                 link="https://cabbbagee.itch.io/miniature-nightmares"
-                img2={itchBadge}
+                github="https://cabbbagee.itch.io/miniature-nightmares"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
