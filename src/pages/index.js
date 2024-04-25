@@ -74,37 +74,51 @@ const Home = () => {
                 github="https://cabbbagee.itch.io/miniature-nightmares"
               />
             </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Ruby on Rails Website"
+                title="Implement Features on Existing Codebase"
+                img={project2}
+                link="https://github.com/syabdulr/jungle"
+                github="https://github.com/syabdulr/jungle"
+              />
+            </div>
+            <div className="col-span-12">
+              <Project
+                type="React Website"
+                title="Photo Media Sharing Website"
+                img={project3}
+                link="https://github.com/syabdulr/snapshot"
+                github="https://github.com/syabdulr/snapshot"
+              />
+            </div>
             <div className="col-span-12">
               <FeaturedProject
-                type="Unity Game"
-                title="After Hours"
-                summary="After Hours is a  2D Side Scroller Horror Game that places you as a teddy bear trying to escape a haunted elementary school where the Janitor is hunting for you. Developed in 4 days I lead the technical prototypes and User Experience Design given the Design Challenge."
-                summary2="UX Designer and Level Designer"
+                type="Express Javascript Website"
+                title="QuizBee - A Quiz App"
+                summary="The Quiz App is a web application that lets you create and share quizzes with your friends. The creator of the quiz can view and share all the results at the end of the quiz."
+                summary2="Developed using PostgreSQL, Express, JQuery, and Ajax."
+                img={project4}
+                link="https://github.com/syabdulr/QuizBee"
+                github="https://github.com/syabdulr/QuizBee"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Unity Engine Game Lead Developer"
                 img={project5}
+                title="After Hours - A 2D Horror Game with a twist"
                 link="https://zealf.itch.io/afterhours"
                 github="https://zealf.itch.io/afterhours"
               />
             </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                type="Express Javascript Website"
-                title="QuizBee - A Quiz App"
-                summary="The Quiz App is a web application that lets you create and share quizzes with your friends. The creator of the quiz can view and share all the results at the end of the quiz."
-                summary2="Developed using PostgreSQL, Express, JQuery, and Ajax."
-                img={project4}
-                link="https://github.com/syabdulr/QuizBee"
-                github="https://github.com/syabdulr/QuizBee"
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                type="Express Javascript Website"
-                title="QuizBee - A Quiz App"
-                summary="The Quiz App is a web application that lets you create and share quizzes with your friends. The creator of the quiz can view and share all the results at the end of the quiz."
-                summary2="Developed using PostgreSQL, Express, JQuery, and Ajax."
-                img={project4}
-                link="https://github.com/syabdulr/QuizBee"
-                github="https://github.com/syabdulr/QuizBee"
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Blog Website"
+                img={project6}
+                title="Tweeter - A Twitter Clone"
+                link="https://github.com/syabdulr/tweeter"
+                github="https://github.com/syabdulr/tweeter"
               />
             </div>
           </div>
