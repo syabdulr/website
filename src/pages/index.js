@@ -70,7 +70,7 @@ const Home = () => {
                 title="Miniature Nightmares"
                 summary="Miniature Nightmares is a 1v1 player versus player (PvP) game set in a physical house diorama, where Arduino is utilized as the controller. The digital game, constructed with the Unity Engine, features one player assuming the role of the monster, while the other player takes on the role of the human."
                 summary2="Project Manager and Lead UX/UI Designer"
-                summary3="GDC 2024 Finalist, Level Up 2nd Place Innovative Technology"
+                summary3="GDC 2024 Finalist, Level Up 2024 2nd Place Innovative Technology"
                 img={project1}
                 link="https://cabbbagee.itch.io/miniature-nightmares"
                 github="https://cabbbagee.itch.io/miniature-nightmares"
@@ -78,17 +78,17 @@ const Home = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Social Networking Game"
-                title="BallUp - Role: Lead UX Designer"
+                type="BallUp: Social Networking Game"
+                title="UX Designer"
                 img={project7}
-                link="https://ball-up-deployment.vercel.app/-79.4005188,43.6622882,12"
-                github="https://github.com/lighthouse-buddies/BallUP"
+                link="https://drive.google.com/drive/folders/1Wp8ie31hZoCC_3R9a3eifQX1ur74T7X8"
+                github="https://ball-up-deployment.vercel.app/-79.4005188,43.6622882,12"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Unity Game"
-                title="After Hours - Role: UX Designer"
+                type="After Hours - Unity 2d Platformer Game"
+                title="UX Designer"
                 img={project5}
                 link="https://drive.google.com/file/d/12JLaN54dRvWo3p2iclywi0DuF8U1VfHk/view?usp=sharing"
                 github="https://zealf.itch.io/afterhours"
@@ -96,9 +96,9 @@ const Home = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Educational Game"
+                type="QuizBee - Educational Game"
                 img={project4}
-                title="QuizBee - Education Gamified"
+                title="UX Designer"
                 link="https://drive.google.com/drive/folders/1Wp8ie31hZoCC_3R9a3eifQX1ur74T7X8"
                 github="https://github.com/syabdulr/QuizBee"
               />
