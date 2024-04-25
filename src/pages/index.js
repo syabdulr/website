@@ -22,73 +22,60 @@ const Home = () => {
     <>
       <Head>
         <title>Home Page</title>
-        <meta
-          name="description"
-          content=""
-        />
+        <meta name="description" content="" />
       </Head>
-      <TransitionEffect />
-      <main className='flex items-center text-dark w-full min-h-screen dark:text-light sm:items-start'>
-        <Layout className='pt-0 md:pt-16 sm:pt-16'>
-          <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className='w-2/5 md:w-full'>
-              <Image
-                src={profilePic}
-                alt="CodeBucks"
-                className='w-4/5 h-auto lg:hidden md:inline-block md:w-full'
-                priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-              />
-            </div>
-            <div className='w-3/5 flex flex-col items-center self-center lg:w-full lg:text-center'>
-              <AnimatedText
-                text="Elevating User Experiences through Empathy."
-                className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl'
-              />
-              <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                As a UX/UI Designer with 2 years of experience, I am passionate about understanding people.
-                Striving to improve the lives of others through design.
-              </p>
-              <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link
-                  href="/resume.pdf"
-                  target={"_blank"}
-                  className="flex items-center bg-dark text-light p-2.5 px-6
-                  rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
-                  border-2 border-solid border-transparent hover:border-dark
-                  
-                  dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
-                  hover:dark:border-light md:p-2 md:px-4 md:text-base
-                  "
-                  download={true}
-                >
-                  Resume <LinkArrow className={"w-6 ml-1"} />
-                </Link>
-                <Link
-                  href="mailto:abdulsyed1998@gmail.com"
-                  target={"_blank"}
-                  className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
-                >
-                  Contact
-                </Link>
-              </div>
-            </div>
-          </div>
-        </Layout>
-
-      </main>
-
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
+              <div className="flex items-center justify-between w-full lg:flex-col">
+                <div className="w-2/5 md:w-full">
+                  <Image
+                    src={profilePic}
+                    alt="CodeBucks"
+                    className="w-4/5 h-auto lg:hidden md:inline-block md:w-full"
+                    priority
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                  />
+                </div>
+                <div className="w-3/5 flex flex-col items-center self-center lg:w-full lg:text-center">
+                  <AnimatedText
+                    text="Elevating User Experiences through Empathy."
+                    className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl"
+                  />
+                  <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
+                    As a UX/UI Designer with 2 years of experience, I am passionate about understanding people. Striving to improve the lives of others through design.
+                  </p>
+                  <div className="flex items-center self-start mt-2 lg:self-center">
+                    <Link
+                      href="/resume.pdf"
+                      target={"_blank"}
+                      className="flex items-center bg-dark text-light p-2.5 px-6
+                      rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
+                      border-2 border-solid border-transparent hover:border-dark
+                      dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
+                      hover:dark:border-light md:p-2 md:px-4 md:text-base"
+                      download={true}
+                    >
+                      Resume <LinkArrow className={"w-6 ml-1"} />
+                    </Link>
+                    <Link
+                      href="mailto:abdulsyed1998@gmail.com"
+                      target={"_blank"}
+                      className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
+                    >
+                      Contact
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-span-12">
               <FeaturedProject
                 type="Social Media Application"
                 title="BallUp"
-                summary="An application designed to help basketball players and enthusiasts find courts near them. 
-                The app caters to both non-registered and registered users. 
-                While non-registered users can find courts near them, registered users enjoy the privilege of adding new courts, viewing their contributions, and adding comments and addresses."
+                summary="An application designed to help basketball players and enthusiasts find courts near them. The app caters to both non-registered and registered users. While non-registered users can find courts near them, registered users enjoy the privilege of adding new courts, viewing their contributions, and adding comments and addresses."
                 summary2="Developed using ReactJS, NextJS, PostgreSQL and TailwindCSS"
                 summary3="Deployed on Vercel"
                 img={project1}
@@ -114,7 +101,6 @@ const Home = () => {
                 github="https://github.com/syabdulr/snapshot"
               />
             </div>
-
             <div className="col-span-12">
               <FeaturedProject
                 type="Express Javascript Website"
@@ -126,7 +112,6 @@ const Home = () => {
                 github="https://github.com/syabdulr/QuizBee"
               />
             </div>
-
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Unity Engine Game Lead Developer"
@@ -154,71 +139,22 @@ const Home = () => {
 
 const FeaturedProject = ({ type, title, summary, summary2, summary3, img, link, github }) => {
   return (
-    <article
-      className="w-full flex items-center justify-between relative  rounded-br-2xl
-        rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light
-        lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4"
-    >
-      <div
-        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light
-    rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]
-    "
-      />
-      <Link
-        href={github}
-        target="_blank"
-        className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
-      >
-        <FramerImage
-          src={img}
-          alt={title}
-          className="w-full h-auto"
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.2 }}
-          priority
-          sizes="(max-width: 768px) 100vw,
-              (max-width: 1200px) 50vw,
-              50vw"
-        />
+    <article className="w-full flex items-center justify-between relative rounded-br-2xl rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
+      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]" />
+      <Link href={github} target="_blank" className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full">
+        <FramerImage src={img} alt={title} className="w-full h-auto" whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }} priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" />
       </Link>
-
       <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
-        <span className="text-primary font-medium text-xl dark:text-primaryDark xs:text-base">
-          {type}
-        </span>
-        <Link
-          href={link}
-          target="_blank"
-          className="hover:underline underline-offset-2"
-        >
-          <h2 className="my-2 w-full text-left text-4xl font-bold dark:text-light lg:text-3xl xs:text-2xl">
-            {title}
-          </h2>
+        <span className="text-primary font-medium text-xl dark:text-primaryDark xs:text-base">{type}</span>
+        <Link href={link} target="_blank" className="hover:underline underline-offset-2">
+          <h2 className="my-2 w-full text-left text-4xl font-bold dark:text-light lg:text-3xl xs:text-2xl">{title}</h2>
         </Link>
-        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
-          {summary}     
-        </p>
-        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
-          {summary2}     
-        </p>
-        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
-          {summary3}     
-        </p>
+        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
+        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary2}</p>
+        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary3}</p>
         <div className="mt-2 flex items-center">
-          <Link href={github} target="_blank" className="w-10">
-            {" "}
-            <GithubIcon />
-          </Link>
-          <Link
-            href={link}
-            target="_blank"
-            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold
-            dark:bg-light dark:text-dark
-            sm:px-4 sm:text-base
-            "
-          >
-            Visit Project
-          </Link>
+          <Link href={github} target="_blank" className="w-10"> <GithubIcon /> </Link>
+          <Link href={link} target="_blank" className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">Visit Project</Link>
         </div>
       </div>
     </article>
@@ -227,55 +163,19 @@ const FeaturedProject = ({ type, title, summary, summary2, summary3, img, link, 
 
 const Project = ({ title, type, img, link, github }) => {
   return (
-    <article
-      className="w-full flex flex-col items-center justify-center rounded-2xl 
-    border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light xs:p-4
-    "
-    >
-      <div
-        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
-    rounded-br-3xl dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]
-    "
-      />
-      <Link
-        href={github}
-        target="_blank"
-        className="w-full cursor-pointer overflow-hidden rounded-lg"
-      >
-        <FramerImage
-          src={img}
-          alt={title}
-          className="w-full h-auto"
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.2 }}
-        />
+    <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light xs:p-4">
+      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]" />
+      <Link href={github} target="_blank" className="w-full cursor-pointer overflow-hidden rounded-lg">
+        <FramerImage src={img} alt={title} className="w-full h-auto" whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }} />
       </Link>
-
       <div className="w-full flex flex-col items-start justify-between mt-4">
-        <span className="text-primary font-medium text-xl dark:text-primaryDark lg:text-lg md:text-base">
-          {type}
-        </span>
-        <Link
-          href={link}
-          target="_blank"
-          className="hover:underline underline-offset-2"
-        >
-          <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl">
-            {title}
-          </h2>
+        <span className="text-primary font-medium text-xl dark:text-primaryDark lg:text-lg md:text-base">{type}</span>
+        <Link href={link} target="_blank" className="hover:underline underline-offset-2">
+          <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl">{title}</h2>
         </Link>
-
         <div className="w-full flex items-center justify-between">
-          <Link
-            href={link}
-            target="_blank"
-            className="text-lg font-semibold underline md:text-base"
-          >
-            Visit
-          </Link>
-          <Link href={github} target="_blank" className="w-8 md:w-6">
-            <GithubIcon />
-          </Link>
+          <Link href={link} target="_blank" className="text-lg font-semibold underline md:text-base">Visit</Link>
+          <Link href={github} target="_blank" className="w-8 md:w-6"> <GithubIcon /> </Link>
         </div>
       </div>
     </article>
