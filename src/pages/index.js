@@ -74,22 +74,15 @@ const Home = () => {
                 github="https://cabbbagee.itch.io/miniature-nightmares"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Ruby on Rails Website"
-                title="Implement Features on Existing Codebase"
-                img={project2}
-                link="https://github.com/syabdulr/jungle"
-                github="https://github.com/syabdulr/jungle"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="React Website"
-                title="Photo Media Sharing Website"
-                img={project3}
-                link="https://github.com/syabdulr/snapshot"
-                github="https://github.com/syabdulr/snapshot"
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Express Javascript Website"
+                title="QuizBee - A Quiz App"
+                summary="The Quiz App is a web application that lets you create and share quizzes with your friends. The creator of the quiz can view and share all the results at the end of the quiz."
+                summary2="Developed using PostgreSQL, Express, JQuery, and Ajax."
+                img={project4}
+                link="https://github.com/syabdulr/QuizBee"
+                github="https://github.com/syabdulr/QuizBee"
               />
             </div>
             <div className="col-span-12">
@@ -103,22 +96,15 @@ const Home = () => {
                 github="https://github.com/syabdulr/QuizBee"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Unity Engine Game Lead Developer"
-                img={project5}
-                title="After Hours - A 2D Horror Game with a twist"
-                link="https://zealf.itch.io/afterhours"
-                github="https://zealf.itch.io/afterhours"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Blog Website"
-                img={project6}
-                title="Tweeter - A Twitter Clone"
-                link="https://github.com/syabdulr/tweeter"
-                github="https://github.com/syabdulr/tweeter"
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Express Javascript Website"
+                title="QuizBee - A Quiz App"
+                summary="The Quiz App is a web application that lets you create and share quizzes with your friends. The creator of the quiz can view and share all the results at the end of the quiz."
+                summary2="Developed using PostgreSQL, Express, JQuery, and Ajax."
+                img={project4}
+                link="https://github.com/syabdulr/QuizBee"
+                github="https://github.com/syabdulr/QuizBee"
               />
             </div>
           </div>
@@ -144,7 +130,7 @@ const FeaturedProject = ({ type, title, summary, summary2, summary3, img, link, 
         <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary2}</p>
         <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary3}</p>
         <div className="mt-2 flex items-center">
-          <Link href="mini_night_infograph.png" target="_blank" className="ml-0 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">Infograph</Link>
+          <Link href="mini_night_infograph.png" target="_blank" className="ml-0 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">My Work</Link>
         </div>
       </div>
     </article>
