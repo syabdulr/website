@@ -14,6 +14,7 @@ import project4 from "../../public/images/projects/Quiz-Bee.png";
 import project5 from "../../public/images/projects/AfterHours.png";
 import project6 from "../../public/images/projects/Tweeter.png";
 import project7 from "../../public/images/projects/ballup-logo.png"
+import project8 from "../../public/images/projects/design_thinking_journal.png"
 import AnimatedText from "@/components/AnimatedText";
 
 const FramerImage = motion(Image);
@@ -78,7 +79,7 @@ const Home = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Unity Game"
-                title="After Hours - 4 Day Game Jam Sprint"
+                title="After Hours - Role: UX Designer"
                 img={project5}
                 link="https://drive.google.com/file/d/12JLaN54dRvWo3p2iclywi0DuF8U1VfHk/view?usp=sharing"
                 github="https://zealf.itch.io/afterhours"
@@ -87,7 +88,7 @@ const Home = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Social Networking Game"
-                title="BallUp"
+                title="BallUp - Role: Lead UX Designer"
                 img={project7}
                 link="https://ball-up-deployment.vercel.app/-79.4005188,43.6622882,12"
                 github="https://github.com/lighthouse-buddies/BallUP"
@@ -106,18 +107,18 @@ const Home = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Unity Engine Game Lead Developer"
-                img={project5}
-                title="After Hours - A 2D Horror Game with a twist"
-                link="https://zealf.itch.io/afterhours"
-                github="https://zealf.itch.io/afterhours"
+                type="Educational Game"
+                img={project4}
+                title="QuizBee - Education Gamified"
+                link="https://drive.google.com/drive/folders/1Wp8ie31hZoCC_3R9a3eifQX1ur74T7X8"
+                github="https://github.com/syabdulr/QuizBee"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Blog Website"
-                img={project6}
-                title="Tweeter - A Twitter Clone"
+                type="Personal Journal"
+                img={project8}
+                title="Design Thinking"
                 link="https://github.com/syabdulr/tweeter"
                 github="https://github.com/syabdulr/tweeter"
               />
