@@ -135,7 +135,7 @@ const FeaturedProject = ({ type, title, summary, summary2, summary3, img, link, 
         <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary2}</p>
         <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary3}</p>
         <div className="mt-2 flex items-center">
-          <Link href="mini_night_infograph.png" target="_blank" className="ml-0 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">My Work</Link>
+          <Link href="https://drive.google.com/file/d/1_p5bsjTKkCSkLx1TQ1BP_DAzQS5EhKuj/view?usp=sharing" target="_blank" className="ml-0 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base">My Work</Link>
         </div>
       </div>
     </article>
