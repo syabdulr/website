@@ -107,7 +107,7 @@ const Home = () => {
               <Project
                 type="Personal Journal"
                 img={project8}
-                title="Design Thinking"
+                title="UX Design Thinking"
                 link="https://github.com/syabdulr/tweeter"
                 github="https://github.com/syabdulr/tweeter"
               />
