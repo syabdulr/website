@@ -7,6 +7,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import { motion } from "framer-motion";
 import { LinkArrow, GithubIcon } from "@/components/Icons";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
+import itchBadge from "../../public/images/projects/badge.png"
 import project1 from "../../public/images/projects/gameLogo.png";
 import project2 from "../../public/images/projects/Jungle.png";
 import project3 from "../../public/images/projects/PhotoLabs.png";
@@ -71,7 +72,7 @@ const Home = () => {
                 summary3="GDC 2024 Finalist, Level Up 2nd Place Innovative Technology"
                 img={project1}
                 link="https://cabbbagee.itch.io/miniature-nightmares"
-                github="https://cabbbagee.itch.io/miniature-nightmares"
+                img2={itchBadge}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
