@@ -108,8 +108,8 @@ const Home = () => {
                 type="Personal Journal"
                 img={project8}
                 title="UX Design Thinking and Development"
-                link="https://github.com/syabdulr/tweeter"
-                github="https://github.com/syabdulr/tweeter"
+                link="https://drive.google.com/file/d/1z8CqCQSPZhGwDLeT7G-OirGDTDlt-NtO/view?usp=sharing"
+                github="https://drive.google.com/file/d/1z8CqCQSPZhGwDLeT7G-OirGDTDlt-NtO/view?usp=sharing"
               />
             </div>
           </div>
