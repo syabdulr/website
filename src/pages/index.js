@@ -38,7 +38,7 @@ const Home = () => {
                     className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl"
                   />
                   <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                  I’m a multidisciplinary designer who blends skills from <strong>UX/UI</strong>, <strong>technical prototyping</strong>, <strong>game design</strong>, and <strong>programming</strong>. It’s my mission to create delightful & memorable user experiences.
+                  I’m a multidisciplinary designer who blends skills from <strong>UX/UI and Game Design</strong>, <strong>technical prototyping</strong>, and <strong>Full Stack Development</strong>. It’s my mission to create delightful & memorable user experiences.
                   </p>
                   <div className="flex items-center self-start mt-2 lg:self-center">
                     <Link
@@ -69,7 +69,7 @@ const Home = () => {
                 type="Alt Ctrl Game"
                 title="Miniature Nightmares"
                 summary="Miniature Nightmares is a 1v1 player versus player (PvP) game set in a physical house diorama, where Arduino is utilized as the controller. The digital game, constructed with the Unity Engine, features one player assuming the role of the monster, while the other player takes on the role of the human."
-                summary2="Project Manager and Lead UX/UI Designer"
+                summary2="Project Manager, Lead UX/UI Designer and Game Developer"
                 summary3="GDC 2024 Finalist, Level Up 2024 2nd Place Innovative Technology"
                 img={project1}
                 link="https://drive.google.com/file/d/1_p5bsjTKkCSkLx1TQ1BP_DAzQS5EhKuj/view?usp=sharing"
@@ -79,7 +79,7 @@ const Home = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="BallUp: Social Networking Game"
-                title="UX Designer"
+                title="UX Designer and Developer"
                 img={project7}
                 link="https://drive.google.com/file/d/1yIrKfznbKIhsSie-GQtjHSLF2CAl-iX7/view?usp=sharing"
                 github="https://drive.google.com/file/d/1yIrKfznbKIhsSie-GQtjHSLF2CAl-iX7/view?usp=sharing"
@@ -88,7 +88,7 @@ const Home = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="After Hours: Unity 2d Platformer Game"
-                title="UX Designer"
+                title="UX Designer and Developer"
                 img={project5}
                 link="https://drive.google.com/file/d/12JLaN54dRvWo3p2iclywi0DuF8U1VfHk/view?usp=sharing"
                 github="https://drive.google.com/file/d/12JLaN54dRvWo3p2iclywi0DuF8U1VfHk/view?usp=sharing"
@@ -98,7 +98,7 @@ const Home = () => {
               <Project
                 type="QuizBee: Educational Game"
                 img={project4}
-                title="UX Designer"
+                title="UX Designer and Developer"
                 link="https://drive.google.com/file/d/1Ey_c5OEIsy5C1gHaU0xE2Jidrhk32c00/view?usp=sharing"
                 github="https://drive.google.com/file/d/1Ey_c5OEIsy5C1gHaU0xE2Jidrhk32c00/view?usp=sharing"
               />
@@ -107,7 +107,7 @@ const Home = () => {
               <Project
                 type="Personal Journal"
                 img={project8}
-                title="UX Design Thinking"
+                title="UX Design Thinking and Development"
                 link="https://github.com/syabdulr/tweeter"
                 github="https://github.com/syabdulr/tweeter"
               />
