@@ -17,14 +17,10 @@ import project7 from "../../public/images/projects/ballup-logo.png"
 import project8 from "../../public/images/projects/design_thinking_journal.png"
 import AnimatedText from "@/components/AnimatedText";
 
-import AnimatedText from "@/components/AnimatedText";
-import useThemeSwitcher from "@/hooks/useThemeSwitcher"; // Import the hook
 
 const FramerImage = motion(Image);
 
 const Home = () => {
-  const [mode, setMode] = useThemeSwitcher(); // Access the theme mode and setter
-
   return (
     <>
       <Head>
@@ -32,8 +28,7 @@ const Home = () => {
         <meta name="description" content="" />
       </Head>
       <TransitionEffect />
-      <main className={`w-full mb-16 -mt-14 flex flex-col items-center justify-center ${mode === "dark" ? "dark:text-light" : ""}`}>
-        {/* Apply dark mode class conditionally */}
+      <main className="w-full mb-16 -mt-14 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
@@ -124,7 +119,6 @@ const Home = () => {
     </>
   );
 };
-
 
 const FeaturedProject = ({ type, title, summary, summary2, summary3, img, link, github }) => {
   return (
