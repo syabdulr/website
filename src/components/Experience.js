@@ -54,12 +54,22 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="QA Engineer"
+            position="Quality Assurance"
             company="DocTalk"
             companyLink="https://www.doctalk.com/"
             time="APR 2024 -- Present"
             address="Toronto, ON"
-            work="Developed and executed comprehensive QA plans, including functional, performance, smoke, and end-to-end testing with Playwright, ensuring the application's readiness for production. Automated regression tests and integrated them into the CI/CD pipeline, enhancing testing efficiency and reducing manual testing time. Collaborated with stakeholders to gather requirements, created detailed test cases, and maintained a traceability matrix to ensure full coverage. Conducted performance testing to identify bottlenecks and optimize application performance under peak loads, ensuring scalability and stability. Generated detailed test execution reports and defect logs, providing actionable insights for continuous improvement and effective risk management."
+            work={
+              <>
+                <ul className="list-disc list-inside">
+                  <li>Developed and executed comprehensive QA plans, including functional, performance, smoke, and end-to-end testing with Playwright, ensuring the application's readiness for production.</li>
+                  <li>Automated regression tests and integrated them into the CI/CD pipeline, enhancing testing efficiency and reducing manual testing time.</li>
+                  <li>Collaborated with stakeholders to gather requirements, created detailed test cases, and maintained a traceability matrix to ensure full coverage.</li>
+                  <li>Conducted performance testing to identify bottlenecks and optimize application performance under peak loads, ensuring scalability and stability.</li>
+                  <li>Generated detailed test execution reports and defect logs, providing actionable insights for continuous improvement and effective risk management.</li>
+                </ul>
+              </>
+            }
           />
 
           <Details
