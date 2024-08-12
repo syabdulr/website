@@ -34,7 +34,7 @@ const AnimatedNumbers = ({ value }) => {
   return <span ref={ref}></span>;
 };
 
-const about = () => {
+const About = () => {
   return (
     <>
       <Head>
@@ -54,37 +54,32 @@ const about = () => {
                 Biography - Abdul
               </h2>
               <p className="font-medium">
-                As a UX/UI Designer, I strive to design experiences that simplify the lives of others without compromise.
+                I’m a multidisciplinary <strong>QA Engineer</strong> who blends skills from <strong>UX/UI and Game Design</strong>, <strong>Technical Prototyping</strong>, and <strong>Full Stack Development</strong>. My mission is to create polished, delightful, and memorable user experiences.
               </p>
-
               <p className="my-4 font-medium">
-                Energetic Team Player with a purpose of fostering productive and effective work environments.
+                As a QA Engineer, I am dedicated to ensuring the highest quality in every aspect of the user experience, leveraging my diverse background to deliver thorough and effective testing solutions.
               </p>
-
               <p className="my-4 font-medium">
-                Intricate Problem Solver that is driven to tackle complex challanges with creative solutions in a fast paced high-stakes environment.
+                I excel in problem-solving and thrive in fast-paced environments, driven to tackle complex challenges with creative and efficient solutions.
               </p>
-
               <p className="font-medium">
-                Specialization in plugin workflows and prototyping to create quick designs when working on games.
-
+                My expertise extends to technical prototyping and full stack development, allowing me to create and test innovative designs and workflows effectively.
               </p>
             </div>
 
             <div
               className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark
-bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8
-"
+              bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8"
             >
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
-                alt={profilePic}
+                alt="Profile Picture"
                 className="w-full h-auto rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw,
-              (max-width: 1200px) 50vw,
-              33vw"
+                (max-width: 1200px) 50vw,
+                33vw"
               />
             </div>
 
@@ -93,10 +88,7 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={450} />+
                 </span>
-                <h2
-                  className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
-                xs:text-sm"
-                >
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   GitHub commits this year
                 </h2>
               </div>
@@ -105,10 +97,7 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={2} />+
                 </span>
-                <h2
-                  className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
-                xs:text-sm"
-                >
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Games Developed
                 </h2>
               </div>
@@ -117,10 +106,7 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={2} />+
                 </span>
-                <h2
-                  className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
-                xs:text-sm"
-                >
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   years of experience
                 </h2>
               </div>
