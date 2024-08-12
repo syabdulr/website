@@ -59,17 +59,7 @@ const Experience = () => {
             companyLink="https://www.doctalk.com/"
             time="APR 2024 -- Present"
             address="Toronto, ON"
-            work={
-              <>
-                <ul className="list-disc list-inside">
-                  <li>Developed and executed comprehensive QA plans, including functional, performance, smoke, and end-to-end testing with Playwright, ensuring the application's readiness for production.</li>
-                  <li>Automated regression tests and integrated them into the CI/CD pipeline, enhancing testing efficiency and reducing manual testing time.</li>
-                  <li>Collaborated with stakeholders to gather requirements, created detailed test cases, and maintained a traceability matrix to ensure full coverage.</li>
-                  <li>Conducted performance testing to identify bottlenecks and optimize application performance under peak loads, ensuring scalability and stability.</li>
-                  <li>Generated detailed test execution reports and defect logs, providing actionable insights for continuous improvement and effective risk management.</li>
-                </ul>
-              </>
-            }
+            work="Developed and executed QA plans with Playwright, including functional, performance, and end-to-end testing. Automated regression tests, integrated them into the CI/CD pipeline, and conducted performance testing to optimize application stability. Collaborated with stakeholders to create detailed test cases and reports, ensuring comprehensive coverage and actionable insights for continuous improvement."
           />
 
           <Details
