@@ -55,7 +55,7 @@ const Skills = () => {
 <Skill name="Selenium" x="20vw" y="6vw" />
 <Skill name="API Testing" x="-35vw" y="12vw" />
 <Skill name="Postman" x="18vw" y="18vw" />
-<Skill name="Browser DevTools" x="-10vw" y="-25vw" />
+<Skill name="Browser Dev" x="-10vw" y="-25vw" />
 <Skill name="E2E Testing" x="12vw" y="8vw" />
 
       </div>
