@@ -250,4 +250,4 @@ const projects = () => {
 
 
 
-export default projects;
+export default Projects;
