@@ -11,6 +11,7 @@ import project3 from "../../public/images/projects/PhotoLabs.png";
 import project4 from "../../public/images/projects/Quiz-Bee.png";
 import project5 from "../../public/images/projects/AfterHours.png";
 import project6 from "../../public/images/projects/Tweeter.png";
+import project7 from "../../public/images/projects/SpaceCadets.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -229,11 +230,27 @@ const projects = () => {
                 github="https://github.com/syabdulr/tweeter"
               />
             </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Unreal Engine 5 Movie"
+                title="Space Cadets - A Cyberpunk Odyssey"
+                summary="Space Cadets is an immersive 3D cyberpunk story. It is a story about the pursuit of freedom and the quantaum effects of love"
+                summary2="Developed using Unreal Engine"
+                summary3="Work in Progress!"
+                img={project7}
+                link=""
+                github=""
+              />
+            </div>
           </div>
         </Layout>
       </main>
     </>
   );
 };
+
+
+
 
 export default projects;
