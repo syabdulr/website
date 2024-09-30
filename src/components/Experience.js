@@ -57,7 +57,7 @@ const Experience = () => {
             position="Quality Assurance"
             company="DocTalk"
             companyLink="https://www.doctalk.com/"
-            time="APR 2024 -- Present"
+            time=""
             address="Toronto, ON"
             work="Developed and executed QA plans with Playwright, including functional, performance, and end-to-end testing. Automated regression tests, integrated them into the CI/CD pipeline, and conducted performance testing to optimize application stability. Collaborated with stakeholders to create detailed test cases and reports, ensuring comprehensive coverage and actionable insights for continuous improvement."
           />
@@ -66,7 +66,7 @@ const Experience = () => {
             position="Lead Unity QA Engineer"
             company="Alt Ctrl Studios"
             companyLink="https://drive.google.com/file/d/1_p5bsjTKkCSkLx1TQ1BP_DAzQS5EhKuj/view"
-            time="SEP 2023 -- APR 2024"
+            time=""
             address="Oakville, ON"
             work="Developed and executed comprehensive QA tests in Unity for an Augmented Reality game, ensuring smooth performance and gameplay quality for the GDC 2024 showcase in San Francisco. Conducted user testing sessions and collaborated with the development team to refine gameplay mechanics, resulting in a 26% increase in player engagement and a 15% improvement in user experience."
           />
@@ -75,7 +75,7 @@ const Experience = () => {
             position="Front End QA/Developer Co-Op"
             company="Lighthouse Labs"
             companyLink="https://www.lighthouselabs.ca/"
-            time="APR 2023 -- AUG 2023"
+            time=""
             address="Toronto, ON"
             work="Performed front-end testing and debugging, ensuring the accuracy and functionality of UI components during a major redesign that enhanced user experience."
           />
@@ -84,7 +84,7 @@ const Experience = () => {
             position="Client Experience Specialist"
             company="QuestTechnology Group"
             companyLink="https://www.questrade.com/home"
-            time="JUL 2022 -- OCT 2022"
+            time=""
             address="Toronto, ON"
             work="Managed client interactions and documented issues to ensure quality assurance, tracking and resolving pain points through detailed ticketing."
           />

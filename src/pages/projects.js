@@ -232,12 +232,9 @@ const projects = () => {
             </div>
 
             <div className="col-span-12">
-              <FeaturedProject
+              <Project
                 type="Unreal Engine 5 Movie"
                 title="Space Cadets - A Cyberpunk Odyssey"
-                summary="Space Cadets is an immersive 3D cyberpunk story. It is a story about the pursuit of freedom and the quantaum effects of love"
-                summary2="Developed using Unreal Engine"
-                summary3="Work in Progress!"
                 img={project7}
                 link=""
                 github=""
